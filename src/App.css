@@ -21,14 +21,26 @@
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .right {
-    margin-left: 0;
-    width: 100%;
-    height: calc(100% - 160px);
-  }
-  
-  .map {
-    margin-top: 0;
+ /* Define a variable to store the icon size */
+:root {
+  --icon-size: 1em;
+}
+
+/* Set the height of the map container to 100% of the viewport height */
+.right {
+  height: 100vh;
+}
+
+/* Define styles for the map */
+ 
+
+/* Define styles for the icon */
+ 
+
+/* Apply different styles for small screens */
+@media screen and (max-width: 768px) {
+  :root {
+    --icon-size: 0.8em;
   }
 }
+
