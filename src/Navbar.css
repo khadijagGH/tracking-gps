@@ -1,0 +1,119 @@
+.navbar-nav {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	 
+	 margin-right: auto;
+	
+	
+	 
+  }
+  nav{
+	display: flex;
+	width: 100%;
+	background-color: rgb(245, 241, 241);
+	align-items: center;
+	cursor: pointer;
+	 height: 50px; 
+  }
+  
+  .nav-item {
+	margin-right : 20%;
+  }
+  
+  .nav-link {
+	display: block;
+	color:black;
+	font-weight: 700;
+	font-family: "Rockwell", serif;
+	
+	text-decoration: none;
+	padding: 10px;
+  }
+  
+  .nav-link:hover {
+	background-color: #32d49a;
+  }
+  .navbar-brand {
+	display: flex;
+	align-items: center;
+	 margin-right: 300px;
+	 
+ 
+	  
+  }
+  
+  .logo {
+	height: 40px;
+float: right;
+margin-left: 10px;
+
+	 
+  }
+  .right{
+	float: right;
+  }
+  
+  .profil{
+	height: 40px;
+	float: right;
+	 
+	
+  }
+  .logout{
+	height: 23px;
+	float: right;
+	margin-right: 10px;
+	 
+ 
+  }
+  
+  .app-name {
+	 
+	background: linear-gradient(to right, #0632c2, #8bdf47);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+	margin: 0;
+	font-family: "Rockwell", serif;
+
+	 
+
+  }
+  .navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f0f0f0;
+	padding: 20px;
+  }
+  
+  .navbar-logo {
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	color: #333;
+  }
+  
+  .navbar-logo img {
+	height: 40px;
+	margin-right: 10px;
+  }
+  
+  .navbar-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .navbar-link {
+	font-size: 18px;
+	color: #333;
+	margin: 0 10px;
+	text-decoration: none;
+  }
+  
+  

@@ -1,0 +1,151 @@
+.dashboard-container {
+	display: flex;
+	height: 65px;
+	height: 65px;
+ justify-content: center;
+	 width:900px;
+	 margin-left: 700px;
+	 margin-top: 5px;
+	 
+  }
+  
+  .dashboard-box {
+    display: flex;
+	background-color: #f0f0f0;
+	margin: 4px 10px;
+	text-align: center;
+	align-items: center;
+	height: 65px;  
+	position: relative;
+	width:900px;
+ 
+ 
+  }
+  
+   
+  
+ .car {
+	
+ height: 100px;
+ 
+ padding-left: 70px;
+ margin-top: 10px;
+
+
+ 
+  }
+  .carblue-wrapper {
+	flex: 2; /* make the wrapper element expand to fill available space */
+	position: relative; /* make the wrapper a positioned element */
+  }
+  
+  .carblue {
+	position: absolute; /* position the image absolutely within the wrapper */
+	top: 0; /* set top and left to 0 to align the image */
+	left: 0;
+	width: 60PX; /* set width and height to 100% to fill the wrapper */
+	height: 100%;
+	background-color: #018eec;
+ 
+	 
+
+	 
+  }
+ 
+  .cargreen{
+	position: absolute; /* position the image absolutely within the wrapper */
+	top: 0; /* set top and left to 0 to align the image */
+	left: 0;
+	width: 60PX; /* set width and height to 100% to fill the wrapper */
+	height: 100%;
+	background-color:#89e63d;
+	 
+	 
+  }
+  .carred{
+	position: absolute; /* position the image absolutely within the wrapper */
+	top: 0; /* set top and left to 0 to align the image */
+	left: 0;
+	width: 60PX; /* set width and height to 100% to fill the wrapper */
+	height: 100%;
+	background-color:#ff2a00;
+ 
+	 
+  }
+  
+  .dashboard-box h2 {
+	font-size: 20px;
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: 1px;
+ 
+
+  }
+  
+  button{
+	background-color: #71B739;
+	padding: 5px;
+	 
+	margin-left: 2px;	
+	 
+  }
+  #recheche{
+	padding: 10px;
+  }
+  .dashboard-box p {
+	font-size: 30px;
+	color: #555;
+	margin: 0;
+	 align-items: center
+	 ;
+  }
+  /* css for the list in the dashboard */
+
+
+  .vehicle-list { 
+	background-color: #ddd;
+	padding: 10px;
+	 margin: 2px;
+	width: 300px;
+	border: 1px solid;
+ 
+	 
+  }
+  
+  .vehicle-info {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .client-type {
+	font-weight: bold;
+	margin-right: 10px;
+  }
+  
+  .client-nom {
+	font-style: italic;
+	margin-right: 10px;
+  }
+  
+  .vehicle-marque {
+	margin-right: 10px;
+  }
+  
+  .vehicle-modele {
+	font-style: italic;
+  }
+  .all{
+	display: flex; 
+	margin-top: -70px;
+ 
+ 
+	 
+  }
+  .vehicle-list {
+	height: 100vh; 
+	overflow-y: scroll;
+  }
+  body {
+	overflow-y: hidden;
+  }
+  
